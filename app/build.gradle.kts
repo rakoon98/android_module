@@ -78,4 +78,7 @@ dependencies {
 
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.junit.junit)
+
+    // 모듈
+    implementation(project(":chart"))
 }
